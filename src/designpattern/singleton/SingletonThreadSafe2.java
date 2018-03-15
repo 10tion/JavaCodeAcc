@@ -12,7 +12,7 @@ class SingletonThreadSafe2 {
             private final static SingletonThreadSafe2 instance = new SingletonThreadSafe2();  
     }  
       
-    public static Singleton getInstance() {  
+    public static SingletonThreadSafe2 getInstance() {  
         return HolderClass.instance;  
     }
 }
